@@ -48,6 +48,26 @@ input[type="password"] {
     border: 1px solid #aaa;
 }
 
+.mostrar {
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    position: relative;
+    left: 450px;
+    top: -35px;
+    padding-top: 2px;
+    color: #999;
+}
+
+.icono {
+    width: 2%;
+    ;
+}
+
+.inputPadding {
+    padding-left: 40px;
+}
+
 .icon {
     min-width: 50px;
     text-align: center;
@@ -87,7 +107,7 @@ option {
     .formulario {
         margin: auto;
         width: 500px;
-        margin-top: 60px;
+        margin-top: 50px;
         border-radius: 2%;
     }
 }
