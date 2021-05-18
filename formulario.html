@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form class="formulario" autocomplete="off" id="enviar">
+        <h1>Registrate</h1>
+        <img src="https://www.computerhope.com/jargon/g/guest-user.jpg" />
+        <div class="contenedor">
+            <!--Ingresar Nombres-->
+            <label>Nombres</label>
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Ingrese sus nombres" />
+            </div>
+            <!--Ingresar Apellidos-->
+            <label>Apellidos</label>
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Ingrese sus Apellidos" />
+            </div>
+            <!--Ingresar Correo Electronico-->
+            <label>Correo</label>
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="Correo Electronico" />
+            </div>
+            <!--Ingresar Contraseña-->
+            <label>Contraseña</label>
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Contraseña" />
+            </div>
+            <!--Ingresar sexo-->
+            <label>Seleccione su sexo</label>
+            <select name="Sexo">
+          <option name="Sexo">Masculino</option>
+          <option name="Sexo">Femenino</option>
+          <option name="Sexo">Otro</option>
+        </select>
+            <br />
+            <br />
+            <input type="submit" value="Registrarse" id="enviar" onclick="myFunction()" class="button" />
+        </div>
+    </form>
+    <!--llamamos a nuestro script en este caso mensaje-->
+    <script src="mensaje.js"></script>
+</body>
+
+</html>
