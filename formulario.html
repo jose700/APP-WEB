@@ -18,40 +18,46 @@
             <label>Nombres</label>
             <div class="input-contenedor">
                 <i class="fas fa-user icon"></i>
-                <input type="text" placeholder="Ingrese sus nombres"required />
+                <input type="text" placeholder="Ingrese sus nombres" required />
             </div>
             <!--Ingresar Apellidos-->
             <label>Apellidos</label>
             <div class="input-contenedor">
                 <i class="fas fa-user icon"></i>
-                <input type="text" placeholder="Ingrese sus Apellidos"required />
+                <input type="text" placeholder="Ingrese sus Apellidos" required />
             </div>
             <!--Ingresar Correo Electronico-->
             <label>Correo</label>
             <div class="input-contenedor">
                 <i class="fas fa-envelope icon"></i>
-                <input type="text" placeholder="Correo Electronico"required />
+                <input type="text" placeholder="Correo Electronico" required />
             </div>
             <!--Ingresar Contraseña-->
             <label>Contraseña</label>
             <div class="input-contenedor">
                 <i class="fas fa-key icon"></i>
-                <input type="password" placeholder="Contraseña"required />
+                <input type="password" id="txtPassword" placeholder="Contraseña" required />
+            </div>
+            <div>
+                <!--mostrar contraseña-->
+                <button id="show_password" class="mostrar" type="button" onclick="mostrarPassword()">
+            <i class="fa fa-eye-slash icono"></i>
+          </button>
             </div>
             <!--Ingresar sexo-->
             <label>Seleccione su sexo</label>
-            <select name="Sexo"required>
+            <select name="Sexo" required>
           <option name="Sexo">Masculino</option>
           <option name="Sexo">Femenino</option>
           <option name="Sexo">Otro</option>
         </select>
             <br />
             <br />
-            <input type="submit" value="Registrarse" id="enviar" onclick="myFunction()" class="button" />
+            <input type="submit" value="Registrarse" id="enviar" onclick="myFunction()" required class="button" />
         </div>
     </form>
-    <!--llamamos a nuestro script en este caso mensaje-->
-    <script src="mensaje.js"></script>
 </body>
+<!--llamamos a nuestro script en este caso mensaje-->
+<script src="mensaje.js"></script>
 
 </html>
